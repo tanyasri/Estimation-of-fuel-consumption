@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+<meta charset="UTF-8">
+<title>result</title>
+<link rel="stylesheet" type="text/css" href="/static/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>>
+
+<body style="background-image:url('/static/css/myimage3.jpg');background-size:cover;">
+
+ <div class="bg-nav1 d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Prediction World</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" href="/welcome">Home</a>
+    <a class="p-2 text-dark" href="/about">About us</a>
+    <a class="p-2 text-dark" href="/social">Social Media</a>
+    <a class="p-2 text-dark" href="contact">Contact</a>
+  </nav>
+  <a class="btn btn-outline-primary" href="/welcome">Logout</a>
+</div>
+
+
+<div align="center" style="color:white">
+<br><br><br>
+
+<h1 style="font-size:400%" >-------Result-------</h1>
+    <br><br>
+<h1 style="font-size:400%" >{{pred}}</h1><br><br><br><br>
+    <br>
+    <div class="row">
+        <div action='/predict' method="post" class="col s12">
+
+        </div>
+<br><br><br>
+
+
+    <h2 class="mt-500" style="font-size:200%">........THANK YOU.......</h2>
+
+    </div>
+    </div>
+
+</body>
+</html>

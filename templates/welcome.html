@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+    <script>
+        var d =new Date();
+        function date(){
+         document.getElementById("date").innerHTML=d;
+        }
+
+    </script>
+    <style>
+        p{color:red;
+          font-size:100%;
+        }
+
+        h1{ color:white;
+        font-size:300%;
+        }
+    </style>
+</head>
+<body>
+<header style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('static/css/wall.jpg')">
+    <div class="main">
+        <div class="logo">
+            <img src="/static/css/LOGO.jpeg">
+        </div>
+        <ul>
+            <li class ="active"><a href="/welcome">Home </a></li>
+            <li><a href="/about">About Us </a></li>
+            <li><a href="/social">Social Media </a></li>
+            <li><a href="/contact">Contact Us </a></li>
+             <div align="right" id="date" class="datestyle">
+                <button type="button" class="btn" onclick="date()"> date</button>
+             </div>
+
+
+        </ul>
+    </div>
+        <div  class="title"  >
+        <h1>WELCOME TO THE WORLD OF PREDICTION!!!</h1>
+        </div>
+    <div class="button">
+       <a href="/login" class="btn2" style="color:white">next</a>
+           </div>
+
+</header>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Fuel Estimation</title>
+
+</head>>
+<body style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('/static/css/image11.jpeg');background-size:cover;" >
+
+
+
+  <div class="bg-nav d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Prediction World</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" href="/welcome">Home</a>
+    <a class="p-2 text-dark" href="/about">About us</a>
+    <a class="p-2 text-dark" href="/social">Social Media</a>
+    <a class="p-2 text-dark" href="contact">Contact</a>
+  </nav>
+  <a class="btn btn-outline-primary" href="/welcome">Logout</a>
+</div>
+
+  <div  id="index-banner" align="center">
+    <div class="container">
+      <br><br><br><!--<h1 style="color:#F6DDCC ; font-family: verdana;font-size: 300%;
+" >Welcome To This Page!!!! </h1>-->
+        <br><br>
+      <h1  style="color: #82E0AA ;font-size: 400%;"><b>Fuel Estimation </b></h1>
+      <div class="row center">
+          <br>
+        <h1  style="color:white;font-size: 300%">      -----Predict the need of fuel in future in factory----
+        <br><br>
+        </h1>
+      </div>
+<br>
+              <div class="row">
+    <form autocomplete="off" action='/predict' method="post" class="col s12">
+      <div class="row">
+        <div class="input-field col s4">
+            <label><b style="color:#F8C471;font-size: 180%">Time</b></label>
+<br><br>
+          <input style= "background-color:transparent;color:white"  placeholder="          Time in hour" name="Time" type="text" class="btn2">
+        </div>
+<br>
+        <div class="input-field col s4">
+
+            <label for="last_name"><b style="color:#F8C471;font-size: 180%">Load</b></label>
+<br><br>
+          <input style="background-color:transparent;color:white" id="last_name" name="Load" placeholder="            Load in %"  type="text" class="btn2">
+
+        </div>
+
+<br>
+        <div class="input-field col s4">
+            <label><b style="color:#F8C471;font-size: 180%">Temperature</b></label>
+<br><br>
+          <input style="background-color:transparent;color:white" name="Temperature" placeholder="Temperature in Celsius" class="btn2">
+
+        </div>
+<br>
+      </div>
+
+      <div class="row center">
+<br>
+          <button type="submit" class="btn2 mt-500" style="background:transparent;color:white;width:30%;font-size:200%" >Predicting....</button>
+      </div>
+    </form>
+      </div>
+
+        <br>
+
+    </div>
+  </div>
+
+
+    <br><br>
+
+ </body>
+</html>

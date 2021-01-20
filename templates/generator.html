@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>generator</title>
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+    <script>
+        var d =new Date();
+        function date(){
+         document.getElementById("date").innerHTML=d;
+        }
+
+    </script>
+</head>
+<body>
+<header style="background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('static/css/hp.jpeg')">
+    <div class="main">
+        <div class="logo">
+            <img src="/static/css/LOGO.jpeg">
+        </div>
+        <ul>
+            <li class ="active"><a href="/welcome">Home </a></li>
+            <li><a href="/about">About Us </a></li>
+            <li><a href="/social">Social Media </a></li>
+            <li><a href="/contact">Contact Us </a></li>
+            <br><br>
+             <div align="right" id="date" class="datestyle">
+                <button type="button" class="btn" onclick="date()"> date</button></div>
+        </ul>
+    </div>
+    <div class="about-title">
+        <h1 align="center">Generator</h1><hr>
+<p style="font-size=100%"></p>
+    </div>
+</header>
+</body>
+</html>
